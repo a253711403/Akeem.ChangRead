@@ -1,0 +1,7 @@
+﻿1、初次更新到数据库
+	Add-Migration InitialCreate
+	Update-Database
+
+2、更新表
+	Add-Migration Publishing
+	Update-Database
